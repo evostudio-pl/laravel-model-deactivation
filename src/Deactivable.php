@@ -4,6 +4,11 @@ namespace EvoStudio\Deactivation;
 
 use Carbon\Carbon;
 
+/**
+ * @method static \Illuminate\Database\Eloquent\Builder|\Illuminate\Database\Query\Builder withDeactivated()
+ * @method static \Illuminate\Database\Eloquent\Builder|\Illuminate\Database\Query\Builder onlyDeactivated()
+ * @method static \Illuminate\Database\Eloquent\Builder|\Illuminate\Database\Query\Builder withoutDeactivated()
+ */
 trait Deactivable
 {
 
